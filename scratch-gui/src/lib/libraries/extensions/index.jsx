@@ -317,5 +317,27 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Translate"
+                description="Name for the Translate extension"
+                id="gui.extension.PictoBloxString.name"
+            />
+        ),
+        extensionId: 'PictoBloxString',
+        collaborator: 'Google',
+        iconURL: translateIconURL,
+        insetIconURL: translateInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Translate text into many languages."
+                description="Description for the Translate extension"
+                id="gui.extension.translate.description"
+            />
+        ),
+        featured: true,
+        internetConnectionRequired: true
     }
 ];
