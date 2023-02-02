@@ -16,12 +16,23 @@ class Scratch3_pictoBloxString {
                 {
                     opcode:'writeText',
                     blockType:BlockType.COMMAND,
-                    text:'myText [TEXT]',
+                    text:'IndexOfblock [TEXT]',
                     arguments:{
                         TEXT:{
                             type:ArgumentType.STRING,
-                            defaultValue:"Manish Faujdar"
-                        }
+                            defaultValue:"Faujdar"
+                        }   
+                    }
+                },
+                {
+                    opcode:'writeText',
+                    blockType:BlockType.COMMAND,
+                    text:'IndexOfblock [TEXT]',
+                    arguments:{
+                        TEXT:{
+                            type:ArgumentType.STRING,
+                            defaultValue:"Faujdar"
+                        }   
                     }
                 }
             ],
@@ -32,7 +43,7 @@ class Scratch3_pictoBloxString {
     }
     writeText(args){
         const text = Cast.toString(args.TEXT);
-        log.myText(text)
+        log.IndexOfblock(text);
     }
 }
 
