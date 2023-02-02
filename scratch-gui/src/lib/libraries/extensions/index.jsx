@@ -318,26 +318,22 @@ export default [
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
     },
-    {
-        name: (
-            <FormattedMessage
-                defaultMessage="Translate"
-                description="Name for the Translate extension"
-                id="gui.extension.PictoBloxString.name"
-            />
-        ),
-        extensionId: 'PictoBloxString',
-        collaborator: 'Google',
-        iconURL: translateIconURL,
-        insetIconURL: translateInsetIconURL,
-        description: (
-            <FormattedMessage
-                defaultMessage="Translate text into many languages."
-                description="Description for the Translate extension"
-                id="gui.extension.translate.description"
-            />
-        ),
-        featured: true,
-        internetConnectionRequired: true
-    }
+   {
+    name:"PictoBloxString",
+    extensionId:"PictoBloxString",
+    collaborator:'Manish Faujdar',
+    iconURL:wedo2IconURL,
+    insetIconURL: wedo2InsetIconURL,
+    description:(
+        <FormattedMessage
+        defaultMessage="Manish Faujdar"
+        description="PictoBloxString"
+        id='gui.extensionPictoBloxStirng.description'
+        />
+    ),
+    featured:true,
+    disabled:false,
+    internetConnectionRequired:true,
+    helpLink:'https://scratch.mit.edu/'
+   }
 ];
